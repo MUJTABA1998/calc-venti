@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+:root{
+    --header: 'Cookie', cursive;
+    --primary: 'Roboto Condensed', sans-serif;
+    --primary-text: #9c88ff;
+    --secondary-text: #353b48;
+    --important-text: 'Fira Sans', sans-serif;
+}
+
+.setting-actions{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.setting-page button{
+    width: 100%;
+    margin-left: 20px;
+    min-height: 100px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.set-action-1{
+    background: url(../asset/2249.png);
+    background-size: cover;
+    color: #fff;
+    font-family: var(--primary);
+    letter-spacing: 1px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.set-action-2{
+    background: url(../asset/2307.png);
+    background-size: cover;
+    color: #fff;
+    font-family: var(--primary);
+    letter-spacing: 1px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.setting-content{
+    margin-top: 100px;
+}
+.calculation .create-action{
+    min-height: 40px;
+    width: 250px;
+}
+.tunnel-action{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Project Setting */
+.project-setting{
+    width: 90%;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    min-height: 300px;
+}
+.project-setting-box{
+    width: 80%;
+    margin: auto;
+}
+.project-setting-box h1{
+    color: #353b48;
+    text-align: center;
+    text-transform: uppercase;
+}
+.project-setting-box .form-input h5{
+   font-family: var(--primary);
+   color: #353b48;
+   font-size: 22px;
+   margin-bottom: 10px;
+   margin-left: 5px;
+}
+.project-setting-box .form-input input{
+    width: 100%;
+    height: 40px;
+    border: 2px solid #353b48;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-family: var(--primary);
+}
+.project-setting-box .project-action{
+    width: 200px;
+    min-height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--primary);
+    color: #fff;
+    background: #353b48;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: -3px;
+}
+.projects{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-family: var(--primary);
+}
+.projects ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.projects ul li{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightcyan;
+}
+
+.projects table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.projects table  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+.projects table tr:nth-child(even) {
+    background-color: #dddddd;
+  }
